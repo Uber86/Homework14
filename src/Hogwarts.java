@@ -48,11 +48,4 @@ public class Hogwarts {
                 ", уровень колдовства: " + witchcraft +
                 ", трансгрессировать: " + transgress;
     }
-
-
-
-
-
-
-
 }

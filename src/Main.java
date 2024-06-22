@@ -31,18 +31,6 @@ public class Main {
         studentСomparison.print(puffenduys);
         studentСomparison.print(ravenclaws);
 
-
-
-
-
-
-
-
-
-
-
-
-
     }
 
 }

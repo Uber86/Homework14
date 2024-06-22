@@ -54,9 +54,4 @@ public class Gryffindor extends Hogwarts{
                 ", честь: " + honor +
                 ", храбрость: " + bravery ;
     }
-
-
-
-
-
 }

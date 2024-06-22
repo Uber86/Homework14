@@ -28,8 +28,4 @@ public class StudentСomparison {
             System.out.println(ravenclaw.toString());
         }
     }
-
-
-
-
 }
