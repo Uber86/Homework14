@@ -30,11 +30,29 @@ public class Hogwarts {
         this.transgress = transgress;
     }
 
+    public int sum() {
+        return witchcraft + transgress;
+    }
+
+    public void comparison(Hogwarts candidate) {
+        if (sum() > candidate.sum()) {
+            System.out.println(getName() + " обладает бОльшей мощностью магии, чем " + candidate.getName());
+        } else {
+            System.out.println(candidate.getName() + " обладает бОльшей мощностью магии, чем " + getName());
+        }
+    }
+
     @Override
     public String toString() {
         return "Студент: " + name +
                 ", уровень колдовства: " + witchcraft +
                 ", трансгрессировать: " + transgress;
     }
+
+
+
+
+
+
 
 }

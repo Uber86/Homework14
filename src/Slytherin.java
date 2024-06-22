@@ -55,6 +55,18 @@ public class Slytherin extends Hogwarts{
         this.reslustPower = reslustPower;
     }
 
+    public int sum() {
+        return cunning + determination + ambition + resourcefulness + reslustPower;
+    }
+
+    public void comparison(Slytherin candidate) {
+        if (sum() > candidate.sum()) {
+            System.out.println(getName() + " лучший Салазарец, чем " + candidate.getName());
+        } else {
+            System.out.println(candidate.getName() + " лучший Салазарец, чем " + getName());
+        }
+    }
+
     @Override
     public String toString() {
         return "Слизерин " + super.toString()+

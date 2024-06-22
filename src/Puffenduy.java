@@ -35,6 +35,18 @@ public class Puffenduy extends Hogwarts {
         this.honesty = honesty;
     }
 
+    public int sum() {
+        return hardWork + loyalty + honesty;
+    }
+
+    public void comparison(Puffenduy candidate) {
+        if (sum() > candidate.sum()) {
+            System.out.println(getName() + " лучший Пуффендуец, чем " + candidate.getName());
+        } else {
+            System.out.println(candidate.getName() + " лучший Пуффендуец, чем " + getName());
+        }
+    }
+
     @Override
     public String toString() {
         return "Пуффендуй " + super.toString()+
