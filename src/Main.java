@@ -37,5 +37,6 @@ public class Main {
         Puffenduy puffenduy = puffenduys[0];
         Puffenduy puffenduy2 = puffenduys[1];
         puffenduy.comparison(puffenduy2);
+
     }
 }
