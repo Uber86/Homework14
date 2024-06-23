@@ -31,6 +31,12 @@ public class Main {
         studentСomparison.print(puffenduys);
         studentСomparison.print(ravenclaws);
 
-    }
 
+
+
+        Puffenduy puffenduy = puffenduys[0];
+        Puffenduy puffenduy2 = puffenduys[1];
+        puffenduy.comparison(puffenduy2);
+
+    }
 }
